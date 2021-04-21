@@ -27,7 +27,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, red, orange, purple, blue,  yellow);
     background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -55,7 +55,7 @@ body {
     line-height: 70px;
     display: flex;
     justify-content: center;
-    color: cornflowerblue;
+    color: yellow;
     font-size: 70px;
     margin-bottom: 50px;
         background: linear-gradient(to right,red,violet, blue,cyan, orange,green,yellow );
@@ -68,24 +68,29 @@ body {
     
 }
 
+
 @-webkit-keyframes rainbow {
   0% { background-position: 0% 50% }
   50% { background-position: 100% 50% }
   100% { background-position: 0% 50% }
 }
- 
+
+
 @keyframes rainbow {
   0% { background-position: 0% 50% }
   50% { background-position: 100% 50% }
   100% { background-position: 0% 50% }
 }
+
+
 .leftheader{
-    margin-top: 50px;
-    margin-right: 1300px;
+    margin-top: 100px;   
+    margin-bottom: 50px;
+    align-content: flex-end;
     font-size: 50px;
-    display: flex;
-    margin-left: 100px;
-      border-radius: 10px;
+    display: inline;
+    margin-left: 50px;
+    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 10px 0 0 rgba(0, 0, 0, 0.5);
 	padding: 0 10px 0 0;
@@ -96,6 +101,7 @@ body {
 .rightheader{
     margin-top: 50px;
     border-radius: 10px;
+    display: inline;
     background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 10px 0 0 rgba(0, 0, 0, 0.5);
 	padding: 30px 25px 0 50px;
@@ -108,9 +114,9 @@ body {
 .lefttext{
    
 
-    margin-left: 25px;
-    margin-bottom: 200px;
-    margin-top: 25px;
+    margin-left: 50px;
+    margin-top: 55px;
+    margin-bottom: 55px;
     font-size: 30px;
     margin-right: 440px;
     border-radius: 10px;
@@ -122,10 +128,11 @@ body {
 }
 
 .leftsmalltext{
+    
     margin-left: 25px;
     margin-top: 50px;
     font-size: 30px;
-    margin-right: 800px;
+    margin-right: auto;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 10px 0 0 rgba(0, 0, 0, 0.5);
@@ -136,6 +143,8 @@ body {
 a{
     font-size: 45px;
     text-decoration: none;
+    margin-bottom: 20px;
+
   
     color: yellow;
     transition: all.6s ease;
@@ -149,11 +158,15 @@ a:hover {color:#28b62c;}
 a:active {color: #8ce4a6}
 
 .picture{
-    margin-right: 100px;
-    margin-bottom: 200px;
+    margin-left: 100px;
 }
 
-
+.container {
+    margin-top: 55px;
+    max-width: 1920px;
+    margin: auto;
+    height: auto;
+}
 
 
 
